@@ -1,1 +1,10 @@
+- Quando é recomendado utilizarmos Promises em nosso programa?
 
+Pode ser útil quando há a necessidade de utilizar um resultado de um trecho anterior em outro subsequente. Também reduz a quantidade de blocos .then() no código.
+É uma estrutura assíncrona operando com características síncronas.
+
+/////////////////////////////////////////////////////////////////////////////////
+
+- Qual é a principal diferença entre a utilização de Promisses e Async / Await?
+O async/await é um recurso da linguagem JS que permite trabalhar com Promise como se fossem ações síncronas. 
+A proposta das funções async/await é de simplificar o uso de forma síncrona das Promises e executar alguns procedimentos em um grupo de Promises.
